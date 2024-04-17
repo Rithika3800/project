@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="download.jpg" href ="fevicon.png">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div id="nav_bar">
+        <div id="logo">
+            <img src="realestate logo.png" height="80px" width="80px" alt="logo">
+        </div>
+            <a href="homepage.html">Homepage</a>
+            <a href="property.html">Property</a>
+            <a href="#">Site map & Credits</a>
+            <a href="contact.html">Contact Form</a>
+    </div>
+
+    <div id="form_outer">
+        <div id="form_header">
+            <h3>Contact Form</h3>
+            <br>
+            <hr>
+        </div>
+
+        
+        <div id="form">
+        <fieldset>
+            <form>
+                <!-- fname -->
+                <label for="f_name">First Name:<sup>*</sup></label>
+                <input type="text" id="f_name" name="f_name" placeholder="Enter your first name" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- lname -->
+                <label for="l_name">Last Name:<sup>*</sup></label>
+                <input type="text" id="l_name" name="l_name" placeholder="Enter your last name" required>
+                <br>
+                <!-- phone number -->
+                <lable for="phone">Phone Number:<sup>*</sup></lable>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- email -->
+                <label for="email">Email:<sup>*</sup></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br>
+                <!-- type of building -->
+                <label for="type">Type Of Building:<sup>*</sup></label>
+                <select id="type" required>
+                    <option>House</option>
+                    <option>Condominium</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- no of bed rooms and bathrooms -->
+                <label for="bed">No of Bedroom:<sup>*</sup></label>
+                <input type="number" id="bed" name="bed">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="bathrooms">No of Bathroom:<sup>*</sup></label>
+                <input type="number" id="bathrooms" name="bathrooms">
+                <br>
+                <!-- prize and message -->
+                <label for="prize">Prize(100,000$ to 100,000,000$):<sup>*</sup></label>
+                <input id="prize" type="range" name="prize" min="100,000$" max="100,000,000$">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label id="message" for="textarea">Message:<sup>*</sup></label>
+                <textarea id="textarea" placeholder="Please share your taughts here..." required rows="10" cols="50"></textarea>
+                <br>
+                <!-- submit and reset -->
+                <input class="s_r" type="submit" value="Submit">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="s_r" type="reset" value="Reset">
+            </form>
+        </fieldset>
+        </div>
+        
+    </div>
+</body>
+</html>

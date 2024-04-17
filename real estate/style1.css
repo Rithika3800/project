@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    padding-left: 35px;
+    padding-right: 100px;
+    background: linear-gradient(to right, #3c97e7, #e2d3f2); 
+}
+
+#nav_bar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.589);
+    margin: 0 20px; 
+    font-weight: bold; 
+    transition: 0.6s;
+    text-transform: uppercase;
+    
+}
+#logo{
+    display: inline;
+    align-self: flex-start;
+}
+.left-col {
+    flex-basis: 70%;
+}
+.right-col {
+    flex-basis: 30%;
+}
+.house-in p {
+    color: red;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+.houses {
+    background:whitesmoke;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    transition: 0.6s;
+}
+.houses:hover {
+    transform: translateY(-6px); 
+}
+
+.house-img img:hover {
+    transform: scale(1.057); 
+}
+
+
+
+
+
+
+
